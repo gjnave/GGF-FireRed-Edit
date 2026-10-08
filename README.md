@@ -52,5 +52,8 @@ The selected inference modules come from ComfyUI commit
 `b0f4b7b294ce482a2e071d9d762c133d38c7aa07`, under GPLv3. See `NOTICE`,
 `LICENSE`, and `vendor/comfy_core/SOURCE.md`. No model weights are bundled.
 
-Development status: UI build and worker startup tested; a full model generation
-must pass before replacing the current customer download at GetGoingFast.pro.
+Validation status (2026-10-07): the extracted customer ZIP built the UI, loaded
+the bundled core, loaded the model files, encoded an image and prompt, and
+reached sampling. A full image output and speed measurement remain unverified
+because the GPU was shared with another running app; do not infer speed or
+edit quality from the package/startup checks alone.
