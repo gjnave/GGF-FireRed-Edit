@@ -21,6 +21,9 @@ files, settings, and saved results stay on the PC.
 
 The default FP8 diffusion model, BF16 Qwen 2.5 VL text encoder, and VAE total
 about 38.3 GB on disk. Leave extra space for the Python environment and outputs.
+The 21.4 GB diffusion model makes this a high-memory NVIDIA workload. Smaller
+GPUs may offload heavily or run out of memory; no lower-VRAM minimum has been
+validated for this standalone build.
 Other quantizations from the supplied ComfyUI model manager are not automatic
 downloads or selectable in this first standalone preview.
 
