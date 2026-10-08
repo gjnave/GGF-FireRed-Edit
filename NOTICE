@@ -1,0 +1,6 @@
+GGF FireRed Edit - Get Going Fast, 2026.
+Selected ComfyUI inference modules are included under GPLv3; see LICENSE and
+vendor/comfy_core/LICENSE. The app source is distributed under GPLv3 with them.
+FireRed-Image-Edit-1.1 model weights are obtained directly from their publishers
+and are not included in the package. FireRedTeam and cocorang are credited in
+README.md and model_sources.json.

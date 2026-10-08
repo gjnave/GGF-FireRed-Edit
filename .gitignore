@@ -1,0 +1,14 @@
+/.venv/
+/models/
+/jobs/
+/logs/
+__pycache__/
+*.pyc
+network_settings.json
+app.lock
+*.partial
+*.bat
+*.zip
+vendor/comfy_core/input/
+vendor/comfy_core/output/
+vendor/comfy_core/temp/

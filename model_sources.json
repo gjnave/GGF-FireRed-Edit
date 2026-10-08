@@ -1,0 +1,20 @@
+{
+  "diffusion_models": {
+    "name": "FireRed-Image-Edit-1.1_fp8mixed_comfy.safetensors",
+    "bytes": 21439550735,
+    "sha256": "2714d9b134f421925898516e554c245fcaa12db58f5cbbc4db479f85296770df",
+    "url": "https://huggingface.co/cocorang/FireRed-Image-Edit-1.1-FP8_And_BF16/resolve/a5794f10d39a9bd23fc5abd5c6bd0af3b9dedc6a/FireRed-Image-Edit-1.1_fp8mixed_comfy.safetensors"
+  },
+  "text_encoders": {
+    "name": "qwen2.5vl-7b-bf16.safetensors",
+    "bytes": 16584415576,
+    "sha256": "cfafd739459bc86257397259f612a9aee88e5b98e85b5c0d0d1717e898b3463a",
+    "url": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1-ComfyUI/resolve/8625b60ec52d4fa0d128d8a6ebc8adba296f8592/qwen2.5vl-7b-bf16.safetensors"
+  },
+  "vae": {
+    "name": "qwen_image_vae.safetensors",
+    "bytes": 253806246,
+    "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+    "url": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1-ComfyUI/resolve/8625b60ec52d4fa0d128d8a6ebc8adba296f8592/qwen_image_vae.safetensors"
+  }
+}

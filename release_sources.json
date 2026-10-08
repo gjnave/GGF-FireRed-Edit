@@ -1,0 +1,18 @@
+{
+  "mirrors": [
+    {
+      "name": "Codeberg",
+      "api": "https://codeberg.org/api/v1/repos/Cognibuild/GGF-FireRed-Edit/branches/main",
+      "archive": "https://codeberg.org/Cognibuild/GGF-FireRed-Edit/archive/{revision}.zip"
+    },
+    {
+      "name": "GitHub",
+      "api": "https://api.github.com/repos/gjnave/GGF-FireRed-Edit/commits/main",
+      "archive": "https://github.com/gjnave/GGF-FireRed-Edit/archive/{revision}.zip"
+    }
+  ],
+  "required": [
+    "app.py", "worker.py", "runtime.py", "requirements.txt", "update_app.py",
+    "release_sources.json", "config.py", "vendor/comfy_core/nodes.py", "VERSION"
+  ]
+}
