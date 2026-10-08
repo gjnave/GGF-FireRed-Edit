@@ -15,6 +15,7 @@ aiohttp>=3.11,<4
 kornia>=0.7,<1
 comfy-kitchen==0.2.35
 comfy-aimdo==0.5.5
+av==17.1.0
 blake3>=1,<2
 packaging>=24,<27
 typing_extensions>=4.12
