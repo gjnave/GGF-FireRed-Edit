@@ -19,6 +19,21 @@ close the app and run `UPDATE.bat`. Codeberg is the primary source with GitHub
 as fallback. The host-generated repository archive contains code only; model
 files, settings, and saved results stay on the PC.
 
+If you cloned this source repository instead of using the customer ZIP, open
+Command Prompt in the repository folder and run:
+
+```bat
+py -3.11 -m venv .venv
+.venv\Scripts\python.exe -m pip install --upgrade pip
+.venv\Scripts\python.exe -m pip install torch==2.10.0 torchvision==0.25.0 torchaudio==2.10.0 --index-url https://download.pytorch.org/whl/cu130
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe download_models.py
+.venv\Scripts\python.exe app.py
+```
+
+The separate ZIP includes the double-click CMD launchers; Git source does not
+include model weights or a prebuilt Python environment.
+
 The default FP8 diffusion model, BF16 Qwen 2.5 VL text encoder, and VAE total
 about 38.3 GB on disk. Leave extra space for the Python environment and outputs.
 The 21.4 GB diffusion model makes this a high-memory NVIDIA workload. Smaller
